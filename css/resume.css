@@ -1,0 +1,40 @@
+.left{
+  text-align: center;
+  width:30%;
+  margin: 2%;
+  padding:2%;
+  border: 2px solid blue;
+  background:#66CDAA;
+  border-radius: 15px;
+}
+.right{
+  text-align: left;
+  width:60%;
+  margin:2%;
+  padding:2%;
+  border: 2px solid blue;
+  background:#FFE4E1;
+  border-radius: 15px;
+}
+img{
+  width:25%;
+  height:25%;
+}
+.main{
+  display: flex;
+}
+header{
+  background:#DAA520;
+  text-align: center;
+  padding: 0.1%;
+  font-weight: 600;
+  box-shadow: 5px 5px blue;
+  border-radius: 10px;
+
+}
+body{
+  background: #2F4F4F;
+}
+table{
+  width:100%;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="./icons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="./icons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href=./icons"/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="./icons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="120x120" href="./icons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="114x114" href="./icons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="144x144" href="./icons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="./icons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="./icons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
+<link rel="manifest" href="./icons/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+    <header>
+      <h1>Resume Builder</h1>
+      <hr>
+    </header>
+  </head>
+  <body>
+    <form>
+    <section>
+      <h2>Career Obejective<h2>
+        <input type="text" name="career objective" id="career" placeholder="Enter your career Objective">
+    </section>
+    <div class="main">
+      <section>
+      <h2>Personnel Details<h2>
+        <input type="text" name="name" id="name" placeholder="Enter Name"><br>
+        <input type="email" name="email" id="email" placeholder="Enter Email"><br>
+        <input type="text" name="role" id="role" placeholder="Enter Role"><br>
+        <input type="number" name="pno" id="pno" placeholder="PhoneNo"><br>
+      </section>
+      <section>
+        <h2>Graduation Details<h2>
+          <input type="text" name="college1" id="college1" placeholder="Enter College1"><br>
+          <select name="degree1" id="degree1">
+            <option>Select Degree</option>
+            <option>B.Tec</option>
+            <option>B.sc</option>
+            <option>B.com</option>
+          </select><br>
+          <select class="branch1" id="branch1">
+            <option>Select Branch</option>
+            <option>C.S.E</option>
+            <option>E.C.E</option>
+            <option>Mech</option>
+            <option>Others</option>
+          </select><br>
+          <input type="number" name="marks1" id="marks1" placeholder="Enter marks in percentage"><br>
+      </section>
+          </div>
+          <div class="main">
+            <section>
+                <h2>Intermediate Details<h2>
+              <input type="text" name="college2" id="college2" placeholder="Enter College"><br>
+              <select name="degree2" id="degree2">
+                <option>Select Degree</option>
+                <option>Intermediate</option>
+                <option>Diploma</option>
+              </select><br>
+              <select class="branch2" id="branch2">
+                <option>Select Branch</option>
+                <option>M.P.C</option>
+                <option>Bi.P.C</option>
+                <option>M.E.C</option>
+                <option>C.E.C</option>
+                <option>Others</option>
+              </select><br>
+              <input type="number" name="marks2" id="marks2" placeholder="Enter marks in percentage"><br>
+            </section>
+            <section>
+            <h2>S.S.C Details<h2>
+              <input type="text" name="college3" id="college3" placeholder="Enter School Name"><br>
+              <select name="degree3" id="degree3">
+                <option>Select Syllabus Type</option>
+                <option>S.S.C</option>
+                <option>C.B.S.E</option>
+              </select><br>
+              <select class="branch3" id="branch3">
+                <option>Select Branch</option>
+                <option>ssc</option>
+              </select><br>
+              <input type="number" name="marks3" id="marks3" placeholder="Enter marks in percentage"><br>
+            </section>
+          </div>
+          <div class="main">
+            <section>
+              <h2>Techniqual Skills<h2>
+                <input type="text" name="skills" id="skills" placeholder="Enter Skills">
+            </section>
+          </div>
+          <hr>
+          <button type="button" name="name" onclick="addData()">Submit</button>
+          </form>
+  </body>
+  <script type="text/javascript" src="js/store.js"></script>
+</html>
